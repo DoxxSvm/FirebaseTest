@@ -51,13 +51,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                // getting text from our edittext fields.
+
                 String name = employeeNameEdt.getText().toString();
                 String phone = employeePhoneEdt.getText().toString();
                 String address = employeeAddressEdt.getText().toString();
 
-                // below line is for checking weather the
-                // edittext fields are empty or not.
                 if (TextUtils.isEmpty(name) && TextUtils.isEmpty(phone) && TextUtils.isEmpty(address)) {
                     // if the text fields are empty
                     // then show the below message.
