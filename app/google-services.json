@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "862124604885",
+    "project_id": "doxxdemo",
+    "storage_bucket": "doxxdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862124604885:android:91c95ef5d6286911cd915c",
+        "android_client_info": {
+          "package_name": "com.example.firebasetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "862124604885-huldrvvv654p6jattl7pkbfmjl1tf865.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAarQrzoX_uHSyrRLH7eBJWu1mGaKHBbOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "862124604885-huldrvvv654p6jattl7pkbfmjl1tf865.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
