@@ -57,8 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 String address = employeeAddressEdt.getText().toString();
 
                 if (TextUtils.isEmpty(name) && TextUtils.isEmpty(phone) && TextUtils.isEmpty(address)) {
-                    // if the text fields are empty
-                    // then show the below message.
+
                     Toast.makeText(MainActivity.this, "Please add some data.", Toast.LENGTH_SHORT).show();
                 } else {
                     addDatatoFirebase(name, phone, address);
